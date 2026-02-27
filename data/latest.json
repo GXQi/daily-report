@@ -1,0 +1,86 @@
+{
+  "date": "2026-02-27",
+  "overview": "今日AI领域关注焦点集中在开源模型突破与行业人才流动。千问3.5以卓越性能霸榜全球开源大模型，同时云知声发布首个工业级OCR大模型开启新篇章。行业方面，Meta高管庞若鸣放弃高额薪酬加盟OpenAI引发关注，而Perplexity推出整合19个模型的AI终端复刻了彭博终端功能。",
+  "categories": [
+    {
+      "name": "大模型动态",
+      "items": [
+        {
+          "title": "千问3.5霸榜全球开源大模型前四",
+          "summary": "千问3.5在全球开源大模型评测中占据前四位置，展现出卓越性能。该模型仅用10分钟就能完成中级程序员5小时的编程任务，累计下载量已超过10亿次，衍生模型数量超过20万个。",
+          "link": "https://www.qbitai.com/2026/02/382732.html",
+          "source": "量子位"
+        },
+        {
+          "title": "云知声发布工业级OCR大模型U1-OCR",
+          "summary": "云知声发布首个工业级文档智能基础大模型U1-OCR，标志着OCR技术进入3.0时代。该模型专注于文档智能处理，为工业级应用提供了强大的基础能力。",
+          "link": "https://www.qbitai.com/2026/02/382682.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "开源项目",
+      "items": [
+        {
+          "title": "Perplexity推出整合19个模型的AI终端",
+          "summary": "Perplexity推出新型AI终端，以Opus为核心调度19个不同模型，整合了所有AI功能。该产品复刻了年费21万的彭博终端机功能，并声称比OpenClaw“更安全”。",
+          "link": "https://www.qbitai.com/2026/02/382647.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "学术论文",
+      "items": [
+        {
+          "title": "PANGAEA-GPT：地球科学数据自主发现的多智能体系统",
+          "summary": "研究提出PANGAEA-GPT，一个用于地球科学数据自主发现和分析的分层多智能体框架。该框架不同于标准LLM包装器，能够处理PANGAEA等大型数据仓库中的未充分利用数据集，提高数据可重用性。",
+          "link": "https://arxiv.org/abs/2602.21351",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "探究语义敏感信息的自我纠正极限",
+          "summary": "研究探讨大型语言模型在语义敏感信息泄露方面的自我纠正能力极限。针对模型推断敏感身份属性、生成声誉有害内容等问题，研究设计了系统评估框架来测试模型自我调节能力。",
+          "link": "https://arxiv.org/abs/2602.21496",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "ARLArena：稳定智能体强化学习的统一框架",
+          "summary": "研究提出ARLArena框架，旨在解决智能体强化学习训练不稳定的问题。该框架支持系统探索算法设计选择，提高在复杂多步交互任务中的训练稳定性。",
+          "link": "https://arxiv.org/abs/2602.21534",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "复合AI系统中聚合的力量与局限",
+          "summary": "研究在委托-代理框架下探讨复合AI系统中聚合方法的力量与局限。分析查询多个相同模型副本并聚合响应的方法是否比查询单个模型能获得更多输出。",
+          "link": "https://arxiv.org/abs/2602.21556",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "基于隐藏状态的推测解码技术",
+          "summary": "研究提出基于隐藏状态的推测解码技术，解决传统推测解码中多数草稿令牌验证失败导致的计算效率低下问题。该方法通过利用隐藏状态信息提高草稿质量，减少计算浪费。",
+          "link": "https://arxiv.org/abs/2602.21224",
+          "source": "ArXiv CS.CL"
+        }
+      ]
+    },
+    {
+      "name": "行业动态",
+      "items": [
+        {
+          "title": "庞若鸣弃Meta加盟OpenAI",
+          "summary": "Meta高管庞若鸣放弃14亿元薪酬加盟OpenAI，任职Meta仅半年时间。这一人事变动显示了AI领域顶尖人才的激烈竞争和流动趋势。",
+          "link": "https://www.qbitai.com/2026/02/382657.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Karpathy称AI编程已发生质变",
+          "summary": "AI专家Karpathy指出AI编程能力从去年12月开始发生质变，变化速度非常猛烈。这一观察反映了AI在编程领域能力的快速演进和突破。",
+          "link": "https://www.qbitai.com/2026/02/382626.html",
+          "source": "量子位"
+        }
+      ]
+    }
+  ]
+}

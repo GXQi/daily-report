@@ -1,8 +1,0 @@
-[
-  { "name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "categoryHint": "综合" },
-  { "name": "量子位", "url": "https://www.qbitai.com/feed", "categoryHint": "综合" },
-  { "name": "InfoQ AI", "url": "https://www.infoq.cn/topic/AI/feed", "categoryHint": "技术" },
-  { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "categoryHint": "开源" },
-  { "name": "ArXiv CS.AI", "url": "http://arxiv.org/rss/cs.AI", "categoryHint": "论文" },
-  { "name": "ArXiv CS.CL", "url": "http://arxiv.org/rss/cs.CL", "categoryHint": "论文" }
-]
