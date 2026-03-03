@@ -1,5 +1,109 @@
 {
-  "date": "2026-03-02",
-  "overview": "今日暂无新资讯",
-  "categories": []
+  "date": "2026-03-03",
+  "overview": "今日AI领域关注点集中在开源模型发布与学术研究突破。阿里开源了4款Qwen3.5小尺寸模型并获得马斯克点赞，MiniMax发布全球首份大模型业绩报告显示强劲营收。学术方面，多篇重要论文发布，包括SleepLM睡眠语言模型、CiteAudit科学引用验证基准以及多个LLM推理优化框架。",
+  "categories": [
+    {
+      "name": "大模型动态",
+      "items": [
+        {
+          "title": "全球首份大模型业绩报！MiniMax预判2026三大超级PMF",
+          "summary": "MiniMax发布全球首份大模型业绩报告，全年营收达7903.8万美元。报告预测了2026年三大超级产品市场契合点，标志着AI平台公司正式启程。",
+          "link": "https://www.qbitai.com/2026/03/383276.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Notion引入MiniMax M2.5作为Custom Agents唯一可用全球开源模型",
+          "summary": "Notion宣布在其Custom Agents功能中引入MiniMax M2.5模型。该模型成为Notion平台上唯一可用的全球开源模型，增强了AI代理能力。",
+          "link": "https://www.qbitai.com/2026/03/383020.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "开源项目",
+      "items": [
+        {
+          "title": "阿里开源4款Qwen3.5小尺寸模型，马斯克点赞",
+          "summary": "阿里巴巴开源了4款Qwen3.5小尺寸模型，在智能水平上获得显著提升。马斯克对此表示赞赏，称其具有惊人的智能水平。",
+          "link": "https://www.qbitai.com/2026/03/383277.html",
+          "source": "量子位"
+        },
+        {
+          "title": "上海青年造学术版OpenClaw“大圣”",
+          "summary": "上海智能研究院联合复旦大学发布了学术版OpenClaw，命名为“大圣”。该项目由一群青年开发者主导，专注于学术研究应用。",
+          "link": "https://www.qbitai.com/2026/03/383249.html",
+          "source": "量子位"
+        },
+        {
+          "title": "FlagOS镜像登陆腾讯云HAI社区，快速部署OpenClaw",
+          "summary": "FlagOS镜像正式登陆腾讯云HAI社区，用户可快速部署OpenClaw实现应用自由。该部署方案简化了OpenClaw的安装和配置过程。",
+          "link": "https://www.qbitai.com/2026/03/383235.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "AI应用",
+      "items": [
+        {
+          "title": "商汤办公小浣熊推出可编辑AI PPT",
+          "summary": "商汤办公小浣熊推出“可编辑”的AI PPT功能，支持一键生成且每页内容均可由用户修改。该功能强调用户对PPT内容的完全掌控，提升实用性。",
+          "link": "https://www.qbitai.com/2026/03/382971.html",
+          "source": "量子位"
+        },
+        {
+          "title": "OpenClaw最佳工具榜发布，6款龙虾最受欢迎",
+          "summary": "OpenClaw发布最佳工具榜单，评选出6款最受欢迎的“龙虾”工具。榜单还包括各种龙虾食用教程，帮助用户更好地利用这些工具。",
+          "link": "https://www.qbitai.com/2026/03/383023.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "学术论文",
+      "items": [
+        {
+          "title": "SleepLM：自然语言智能用于人类睡眠分析",
+          "summary": "SleepLM是一个睡眠语言基础模型家族，通过自然语言实现人类睡眠对齐、解释和交互。它桥接自然语言和多模态多导睡眠图，支持语言引导的睡眠分析和查询。",
+          "link": "https://arxiv.org/abs/2602.23605",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "CiteAudit：验证LLM时代科学引用的基准",
+          "summary": "CiteAudit是一个用于验证科学引用真实性的基准，针对LLM可能产生的伪造引用问题。它帮助检测看似合理但实际不存在的出版物引用，以维护学术诚信。",
+          "link": "https://arxiv.org/abs/2602.23452",
+          "source": "ArXiv CS.CL"
+        },
+        {
+          "title": "PseudoAct：利用伪代码合成实现LLM代理的灵活规划",
+          "summary": "PseudoAct通过伪代码合成改进LLM代理的规划和行动控制，解决复杂长时任务中的冗余工具使用和不稳定推理问题。该方法提升任务执行的效率和稳定性。",
+          "link": "https://arxiv.org/abs/2602.23668",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "ODAR：通过主动推理实现LLM推理的自适应路由",
+          "summary": "ODAR是一个自适应路由框架，通过主动推理优化LLM推理的准确性与效率权衡。它避免均匀暴力采样，减少计算成本并防止过度思考。",
+          "link": "https://arxiv.org/abs/2602.23681",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "HumanMCP：评估MCP工具检索性能的人类似查询数据集",
+          "summary": "HumanMCP提供了一个人类似查询数据集，用于评估模型上下文协议（MCP）服务器的工具检索性能。该数据集填补了现有基准在真实用户查询表示方面的空白。",
+          "link": "https://arxiv.org/abs/2602.23367",
+          "source": "ArXiv CS.AI"
+        }
+      ]
+    },
+    {
+      "name": "行业动态",
+      "items": [
+        {
+          "title": "国产安全AI超越Claude，多找出10个0day漏洞",
+          "summary": "国产安全AI在漏洞检测方面超越Claude，不仅复现了其发现的漏洞，还额外找出10个0day漏洞。这显示了国产AI在安全领域的强大能力。",
+          "link": "https://www.qbitai.com/2026/03/383016.html",
+          "source": "量子位"
+        }
+      ]
+    }
+  ]
 }
