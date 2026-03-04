@@ -1,20 +1,14 @@
 {
-  "date": "2026-03-03",
-  "overview": "今日AI领域关注点集中在开源模型发布与学术研究突破。阿里开源了4款Qwen3.5小尺寸模型并获得马斯克点赞，MiniMax发布全球首份大模型业绩报告显示强劲营收。学术方面，多篇重要论文发布，包括SleepLM睡眠语言模型、CiteAudit科学引用验证基准以及多个LLM推理优化框架。",
+  "date": "2026-03-04",
+  "overview": "今日AI领域关注点集中在多个方面：高通发布骁龙可穿戴平台至尊版，将20亿参数模型集成到胸针设备中，标志着个人AI生态的重要进展；OpenAI的GPT-5.4模型意外泄露，显示其在特定能力上的突破；同时，阿里千问大模型发生人事变动，林俊旸告别，引发行业关注。",
   "categories": [
     {
       "name": "大模型动态",
       "items": [
         {
-          "title": "全球首份大模型业绩报！MiniMax预判2026三大超级PMF",
-          "summary": "MiniMax发布全球首份大模型业绩报告，全年营收达7903.8万美元。报告预测了2026年三大超级产品市场契合点，标志着AI平台公司正式启程。",
-          "link": "https://www.qbitai.com/2026/03/383276.html",
-          "source": "量子位"
-        },
-        {
-          "title": "Notion引入MiniMax M2.5作为Custom Agents唯一可用全球开源模型",
-          "summary": "Notion宣布在其Custom Agents功能中引入MiniMax M2.5模型。该模型成为Notion平台上唯一可用的全球开源模型，增强了AI代理能力。",
-          "link": "https://www.qbitai.com/2026/03/383020.html",
+          "title": "GPT-5.4意外泄露，OpenAI瞄准两大能力突围",
+          "summary": "OpenAI的GPT-5.4模型意外泄露，并非首次发现其踪迹。该模型旨在特定能力上实现突破，引发业界关注。",
+          "link": "https://www.qbitai.com/2026/03/383592.html",
           "source": "量子位"
         }
       ]
@@ -23,22 +17,10 @@
       "name": "开源项目",
       "items": [
         {
-          "title": "阿里开源4款Qwen3.5小尺寸模型，马斯克点赞",
-          "summary": "阿里巴巴开源了4款Qwen3.5小尺寸模型，在智能水平上获得显著提升。马斯克对此表示赞赏，称其具有惊人的智能水平。",
-          "link": "https://www.qbitai.com/2026/03/383277.html",
-          "source": "量子位"
-        },
-        {
-          "title": "上海青年造学术版OpenClaw“大圣”",
-          "summary": "上海智能研究院联合复旦大学发布了学术版OpenClaw，命名为“大圣”。该项目由一群青年开发者主导，专注于学术研究应用。",
-          "link": "https://www.qbitai.com/2026/03/383249.html",
-          "source": "量子位"
-        },
-        {
-          "title": "FlagOS镜像登陆腾讯云HAI社区，快速部署OpenClaw",
-          "summary": "FlagOS镜像正式登陆腾讯云HAI社区，用户可快速部署OpenClaw实现应用自由。该部署方案简化了OpenClaw的安装和配置过程。",
-          "link": "https://www.qbitai.com/2026/03/383235.html",
-          "source": "量子位"
+          "title": "PRX Part 3：24小时内训练文本到图像模型",
+          "summary": "Hugging Face博客发布PRX系列第三部分，展示如何在24小时内训练一个文本到图像模型。这为快速原型开发和实验提供了新思路。",
+          "link": "https://huggingface.co/blog/Photoroom/prx-part3",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -46,15 +28,27 @@
       "name": "AI应用",
       "items": [
         {
-          "title": "商汤办公小浣熊推出可编辑AI PPT",
-          "summary": "商汤办公小浣熊推出“可编辑”的AI PPT功能，支持一键生成且每页内容均可由用户修改。该功能强调用户对PPT内容的完全掌控，提升实用性。",
-          "link": "https://www.qbitai.com/2026/03/382971.html",
+          "title": "高通将20亿参数模型装进胸针，补齐个人AI生态",
+          "summary": "高通发布骁龙可穿戴平台至尊版，将20亿参数模型集成到胸针等设备中。这标志着个人AI生态的最后一块拼图被补齐，推动AI在可穿戴领域的应用。",
+          "link": "https://www.qbitai.com/2026/03/383878.html",
           "source": "量子位"
         },
         {
-          "title": "OpenClaw最佳工具榜发布，6款龙虾最受欢迎",
-          "summary": "OpenClaw发布最佳工具榜单，评选出6款最受欢迎的“龙虾”工具。榜单还包括各种龙虾食用教程，帮助用户更好地利用这些工具。",
-          "link": "https://www.qbitai.com/2026/03/383023.html",
+          "title": "科大讯飞T90 Pro学习机定义真个性化教育",
+          "summary": "科大讯飞发布T90 Pro学习机，利用大模型技术实现深度个性化教育。技术与教育的交融旨在让每个孩子受益，提升学习效率。",
+          "link": "https://www.qbitai.com/2026/03/383629.html",
+          "source": "量子位"
+        },
+        {
+          "title": "AI Agent完成菲尔兹奖成果形式化，代码已公开",
+          "summary": "AI Agent在一周内独立完成了世纪首次菲尔兹奖成果的形式化，生成20万行代码并已公开。这是历史上最大规模的单一目的Lean形式化项目，展示AI在数学证明中的潜力。",
+          "link": "https://www.qbitai.com/2026/03/383368.html",
+          "source": "量子位"
+        },
+        {
+          "title": "钉钉智能表格接入AI Agent，提升生产力",
+          "summary": "钉钉首创智能表格“透视表视图”，并将AI表格Agent接入钉钉群。这一创新旨在助力企业和个体释放更大的生产力，优化工作流程。",
+          "link": "https://www.qbitai.com/2026/03/383349.html",
           "source": "量子位"
         }
       ]
@@ -63,33 +57,33 @@
       "name": "学术论文",
       "items": [
         {
-          "title": "SleepLM：自然语言智能用于人类睡眠分析",
-          "summary": "SleepLM是一个睡眠语言基础模型家族，通过自然语言实现人类睡眠对齐、解释和交互。它桥接自然语言和多模态多导睡眠图，支持语言引导的睡眠分析和查询。",
-          "link": "https://arxiv.org/abs/2602.23605",
+          "title": "多源多代理证据检索用于事实核查",
+          "summary": "论文提出一种基于检索增强生成（RAG）的方法，用于多源多代理证据检索，以应对互联网上的错误信息。该方法旨在提高事实核查的鲁棒性和可扩展性，超越传统基于训练数据模式的方法。",
+          "link": "https://arxiv.org/abs/2603.00267",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "CiteAudit：验证LLM时代科学引用的基准",
-          "summary": "CiteAudit是一个用于验证科学引用真实性的基准，针对LLM可能产生的伪造引用问题。它帮助检测看似合理但实际不存在的出版物引用，以维护学术诚信。",
-          "link": "https://arxiv.org/abs/2602.23452",
-          "source": "ArXiv CS.CL"
-        },
-        {
-          "title": "PseudoAct：利用伪代码合成实现LLM代理的灵活规划",
-          "summary": "PseudoAct通过伪代码合成改进LLM代理的规划和行动控制，解决复杂长时任务中的冗余工具使用和不稳定推理问题。该方法提升任务执行的效率和稳定性。",
-          "link": "https://arxiv.org/abs/2602.23668",
+          "title": "TraderBench：评估AI代理在对抗性资本市场中的鲁棒性",
+          "summary": "论文引入TraderBench基准，结合专家验证的静态任务和对抗性交易模拟，以评估AI代理在金融领域的鲁棒性。该基准解决了静态基准和LLM基评估中的挑战，提供更动态和可靠的测试环境。",
+          "link": "https://arxiv.org/abs/2603.00285",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "ODAR：通过主动推理实现LLM推理的自适应路由",
-          "summary": "ODAR是一个自适应路由框架，通过主动推理优化LLM推理的准确性与效率权衡。它避免均匀暴力采样，减少计算成本并防止过度思考。",
-          "link": "https://arxiv.org/abs/2602.23681",
+          "title": "DIG to Heal：通过可解释动态决策路径扩展通用代理协作",
+          "summary": "论文探讨如何通过可解释动态决策路径，实现多个通用大语言模型代理的协作，以完成复杂任务。研究旨在促进自主代理之间的涌现协作，减少对预定义工作流的依赖。",
+          "link": "https://arxiv.org/abs/2603.00309",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "HumanMCP：评估MCP工具检索性能的人类似查询数据集",
-          "summary": "HumanMCP提供了一个人类似查询数据集，用于评估模型上下文协议（MCP）服务器的工具检索性能。该数据集填补了现有基准在真实用户查询表示方面的空白。",
-          "link": "https://arxiv.org/abs/2602.23367",
+          "title": "多模态模型在ECG信号上的推理能力评估",
+          "summary": "论文研究多模态大语言模型在ECG信号上的推理能力，并引入新方法验证其推理轨迹的有效性。工作旨在解决健康AI中“黑箱”问题，通过生成可解释的临床逻辑评估模型性能。",
+          "link": "https://arxiv.org/abs/2603.00312",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "EmCoop：LLM代理实体协作的框架与基准",
+          "summary": "论文提出EmCoop框架和基准，用于评估大语言模型代理在动态环境中的实体协作。研究分析协作如何出现、展开并贡献任务成功，推动多代理系统在现实场景中的应用。",
+          "link": "https://arxiv.org/abs/2603.00349",
           "source": "ArXiv CS.AI"
         }
       ]
@@ -98,9 +92,27 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "国产安全AI超越Claude，多找出10个0day漏洞",
-          "summary": "国产安全AI在漏洞检测方面超越Claude，不仅复现了其发现的漏洞，还额外找出10个0day漏洞。这显示了国产AI在安全领域的强大能力。",
-          "link": "https://www.qbitai.com/2026/03/383016.html",
+          "title": "阿里千问大模型换将，林俊旸官宣告别",
+          "summary": "阿里千问大模型发生组织架构调整，32岁的林俊旸官宣告别。这一人事变动可能影响大模型的后续发展和战略方向。",
+          "link": "https://www.qbitai.com/2026/03/383842.html",
+          "source": "量子位"
+        },
+        {
+          "title": "英伟达放弃GPU上LPU，新推理芯片被曝Groq即买即用",
+          "summary": "英伟达被曝放弃在GPU上集成LPU，转而推出新推理芯片，据称Groq可即买即用。OpenAI成为首个采用该芯片的公司，可能改变AI推理市场格局。",
+          "link": "https://www.qbitai.com/2026/03/383329.html",
+          "source": "量子位"
+        },
+        {
+          "title": "2026年度AI盛会启动，北京五月见",
+          "summary": "2026年度AI盛会宣布启动，主题为“马上AI起来”，将于五月在北京举行。活动旨在推动AI技术的普及和应用，鼓励更多人上手使用AI。",
+          "link": "https://www.qbitai.com/2026/03/383796.html",
+          "source": "量子位"
+        },
+        {
+          "title": "今年最值得关注的AI榜单申报启动",
+          "summary": "2026年最值得关注的AI榜单申报即日启动，截至4月27日。该榜单旨在识别和推广行业内的创新项目和成果，欢迎各方申报参与。",
+          "link": "https://www.qbitai.com/2026/03/383565.html",
           "source": "量子位"
         }
       ]
