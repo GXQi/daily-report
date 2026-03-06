@@ -1,62 +1,21 @@
 {
-  "date": "2026-03-05",
-  "overview": "今日AI领域重点关注多篇学术论文的发布，特别是在AI代理协作、医疗AI应用和语言模型评估方面。其中，多篇论文探讨了多智能体协作框架与基准，如EmCoop和DIG to Heal，旨在提升AI代理在动态环境中的协同能力。此外，医疗AI应用MED-COPILOT结合GraphRAG技术，为临床决策提供支持，而SteerEval基准则系统评估了大语言模型的可控性，这些研究推动了AI在专业领域的落地与安全部署。",
+  "date": "2026-03-06",
+  "overview": "今日AI领域最值得关注的事件包括OpenAI发布首个大一统模型GPT-5.4，该模型显著降低了Agent任务成本；同时，国产万亿参数多模态大模型开源发布，预训练算力效率大幅提升；此外，华为重金押注的世界模型公司获得10亿元融资，加速机器人交付进程。",
   "categories": [
     {
-      "name": "学术论文",
+      "name": "大模型动态",
       "items": [
         {
-          "title": "EmCoop：面向LLM代理的具身协作框架与基准",
-          "summary": "该论文提出了EmCoop框架和基准，用于研究多个具身AI代理在动态环境中的协作机制。它结合了大型语言模型的高层认知协调能力，分析协作如何涌现并促进任务成功，为多代理系统设计提供新见解。",
-          "link": "https://arxiv.org/abs/2603.00349",
-          "source": "ArXiv CS.AI"
+          "title": "GPT-5.4发布：OpenAI首个大一统模型",
+          "summary": "OpenAI发布首个大一统模型GPT-5.4，该模型显著降低了Agent任务成本，降幅达47%。",
+          "link": "https://www.qbitai.com/2026/03/384345.html",
+          "source": "量子位"
         },
         {
-          "title": "DIG to Heal：通过可解释动态决策路径扩展通用代理协作",
-          "summary": "研究探讨了如何通过可解释的动态决策路径，实现通用大型语言模型代理之间的规模化协作。它旨在超越预定义工作流，促进自主代理在复杂任务中的涌现合作，提升多代理系统的灵活性和效率。",
-          "link": "https://arxiv.org/abs/2603.00309",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "MED-COPILOT：基于GraphRAG和相似病例检索的医疗助手",
-          "summary": "MED-COPILOT是一个交互式临床决策支持系统，利用GraphRAG和相似患者病例检索技术，帮助医生整合异构医疗证据。它结合大型语言模型的推理能力，减少幻觉风险，提升长结构化医疗文档的处理效果。",
-          "link": "https://arxiv.org/abs/2603.00460",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "SteerEval：跨行为粒度统一评估大语言模型可控性",
-          "summary": "该论文提出了SteerEval分层基准，用于系统评估大语言模型在语言特征、情感和个性等领域的可控性。它涵盖三个规范级别，帮助识别模型行为风险，促进在敏感领域的安全部署。",
-          "link": "https://arxiv.org/abs/2603.02578",
-          "source": "ArXiv CS.CL"
-        },
-        {
-          "title": "TraderBench：评估AI代理在对抗性资本市场中的鲁棒性",
-          "summary": "TraderBench是一个新基准，结合专家验证的静态任务和对抗性交易模拟，以解决金融AI评估中的动态决策挑战。它旨在更准确地反映真实世界交易环境，提升AI代理在金融领域的应用可靠性。",
-          "link": "https://arxiv.org/abs/2603.00285",
-          "source": "ArXiv CS.AI"
-        }
-      ]
-    },
-    {
-      "name": "AI应用",
-      "items": [
-        {
-          "title": "MED-COPILOT：基于GraphRAG和相似病例检索的医疗助手",
-          "summary": "MED-COPILOT是一个交互式临床决策支持系统，利用GraphRAG和相似患者病例检索技术，帮助医生整合异构医疗证据。它结合大型语言模型的推理能力，减少幻觉风险，提升长结构化医疗文档的处理效果。",
-          "link": "https://arxiv.org/abs/2603.00460",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "ExpGuard：专业领域中的LLM内容审核",
-          "summary": "ExpGuard专注于为大型语言模型在专业领域（如技术术语丰富的上下文）建立安全护栏，以应对有害和对抗性内容。它扩展了现有通用审核模型，提升LLM在特定应用场景中的安全性。",
-          "link": "https://arxiv.org/abs/2603.02588",
-          "source": "ArXiv CS.CL"
-        },
-        {
-          "title": "检测写作评估中的AI生成文章：负责任使用与跨LLM泛化",
-          "summary": "该研究探讨了如何检测写作评估中的AI生成文章，强调负责任使用大型语言模型的重要性。它关注检测方法的泛化能力，以应对不同LLM生成的文本，维护写作评估的公正性。",
-          "link": "https://arxiv.org/abs/2603.02353",
-          "source": "ArXiv CS.CL"
+          "title": "GPT-5.3 Instant上线：ChatGPT改进交互体验",
+          "summary": "GPT-5.3 Instant版本上线，优化了ChatGPT的交互体验，减少了说教式回应。",
+          "link": "https://www.qbitai.com/2026/03/383974.html",
+          "source": "量子位"
         }
       ]
     },
@@ -64,16 +23,91 @@
       "name": "开源项目",
       "items": [
         {
-          "title": "GPUTOK：GPU加速的字节级BPE分词器",
-          "summary": "GPUTOK是一个GPU加速的字节级BPE分词器，遵循GPT-2的合并规则，旨在解决CPU分词器在处理百万令牌上下文窗口时的瓶颈。它通过优化内核和Python接口，显著提升分词速度，充分利用GPU计算资源。",
-          "link": "https://arxiv.org/abs/2603.02597",
-          "source": "ArXiv CS.CL"
+          "title": "国产万亿参数多模态大模型开源发布",
+          "summary": "企业级OpenClaw的国产多模态大模型开源发布，参数达万亿级别，预训练算力效率提升49%。",
+          "link": "https://www.qbitai.com/2026/03/384330.html",
+          "source": "量子位"
         },
         {
-          "title": "RO-N3WS：增强低资源ASR泛化能力的罗马尼亚语语音基准",
-          "summary": "RO-N3WS是一个罗马尼亚语语音数据集，包含超过126小时的广播新闻、有声书等多种语音数据，旨在提升自动语音识别在低资源和分布外条件下的泛化能力。它为ASR模型的训练和微调提供了多样化资源。",
-          "link": "https://arxiv.org/abs/2603.02368",
-          "source": "ArXiv CS.CL"
+          "title": "PPClaw重新定义Agent云端托管",
+          "summary": "PPClaw工具发布，通过一条命令即可搞定OpenClaw，简化了Agent的云端托管流程。",
+          "link": "https://www.qbitai.com/2026/03/384307.html",
+          "source": "量子位"
+        },
+        {
+          "title": "Bringing Robotics AI to Embedded Platforms",
+          "summary": "Hugging Face发布博客，介绍将机器人AI集成到嵌入式平台的方法，包括数据集记录、VLA微调和设备端优化。",
+          "link": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "name": "AI应用",
+      "items": [
+        {
+          "title": "360纳米漫剧流水线推动AI影视工业化",
+          "summary": "360发布纳米漫剧流水线，实现无需排队的工业级漫剧制作，加速AI在影视领域的工业化应用。",
+          "link": "https://www.qbitai.com/2026/03/384435.html",
+          "source": "量子位"
+        },
+        {
+          "title": "AI斗蛐蛐世界杯战报出炉",
+          "summary": "AI斗蛐蛐世界杯官方战报发布，悬赏5000美元邀请全球参与者，推动Agent调教技术的发展。",
+          "link": "https://www.qbitai.com/2026/03/383947.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "学术论文",
+      "items": [
+        {
+          "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
+          "summary": "论文研究编码Agent在价值冲突下的非对称目标漂移问题，分析了在长期上下文和未见训练环境中Agent的行为变化。",
+          "link": "https://arxiv.org/abs/2603.03456",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "Build, Judge, Optimize: A Blueprint for Continuous Improvement of Multi-Agent Consumer Assistants",
+          "summary": "论文提出一个蓝图，用于持续改进多Agent消费者助手，重点解决多轮交互评估和紧密耦合多Agent系统优化的挑战。",
+          "link": "https://arxiv.org/abs/2603.03565",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+          "summary": "论文介绍Mozi框架，为药物发现LLM Agent提供受治理的自主性，解决工具使用治理和长期可靠性问题。",
+          "link": "https://arxiv.org/abs/2603.03655",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "MAGE: Meta-Reinforcement Learning for Language Agents toward Strategic Exploration and Exploitation",
+          "summary": "论文提出MAGE方法，使用元强化学习提升语言Agent在非平稳环境中的战略探索和利用能力。",
+          "link": "https://arxiv.org/abs/2603.03680",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
+          "summary": "论文介绍AI4S-SDS系统，结合神经符号方法和稀疏MCTS，用于自动化化学配方的设计，解决高维组合空间导航问题。",
+          "link": "https://arxiv.org/abs/2603.03686",
+          "source": "ArXiv CS.AI"
+        }
+      ]
+    },
+    {
+      "name": "行业动态",
+      "items": [
+        {
+          "title": "华为重金押注的世界模型公司融资10亿元",
+          "summary": "华为投资的世界模型公司新融资10亿元，计划年内交付千台机器人，加速AI在机器人领域的应用。",
+          "link": "https://www.qbitai.com/2026/03/384312.html",
+          "source": "量子位"
+        },
+        {
+          "title": "捏Ta完成超千万美金Pre A+轮融资",
+          "summary": "捏Ta公司完成超千万美金Pre A+轮融资，由九坤领投，源码奇绩等超额跟进，旨在定义AI时代世界创作的基础设施。",
+          "link": "https://www.qbitai.com/2026/03/383998.html",
+          "source": "量子位"
         }
       ]
     }
