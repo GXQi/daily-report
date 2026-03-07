@@ -1,44 +1,15 @@
 {
-  "date": "2026-03-06",
-  "overview": "今日AI领域最值得关注的事件包括OpenAI发布首个大一统模型GPT-5.4，该模型显著降低了Agent任务成本；同时，国产万亿参数多模态大模型开源发布，预训练算力效率大幅提升；此外，华为重金押注的世界模型公司获得10亿元融资，加速机器人交付进程。",
+  "date": "2026-03-07",
+  "overview": "今日AI领域重点关注具身智能新突破和AI应用落地。原力灵机DM0模型获得NVIDIA和Pi双重认可，重塑具身智能范式；高德发布全球首个大模型驱动的视觉认知步行导引系统，推动空间智能应用。同时，多篇重要学术论文发布，涉及AI技能积累、扩散模型加速和LLM安全评估等前沿研究。",
   "categories": [
     {
       "name": "大模型动态",
       "items": [
         {
-          "title": "GPT-5.4发布：OpenAI首个大一统模型",
-          "summary": "OpenAI发布首个大一统模型GPT-5.4，该模型显著降低了Agent任务成本，降幅达47%。",
-          "link": "https://www.qbitai.com/2026/03/384345.html",
+          "title": "黑马图像模型获Nano Banana技术负责人点赞",
+          "summary": "由DDIM之父和CVPR最佳论文作者带领的15人华人团队开发的图像模型，多项能力看齐行业标杆。该模型在图像生成领域展现出强大竞争力。",
+          "link": "https://www.qbitai.com/2026/03/384578.html",
           "source": "量子位"
-        },
-        {
-          "title": "GPT-5.3 Instant上线：ChatGPT改进交互体验",
-          "summary": "GPT-5.3 Instant版本上线，优化了ChatGPT的交互体验，减少了说教式回应。",
-          "link": "https://www.qbitai.com/2026/03/383974.html",
-          "source": "量子位"
-        }
-      ]
-    },
-    {
-      "name": "开源项目",
-      "items": [
-        {
-          "title": "国产万亿参数多模态大模型开源发布",
-          "summary": "企业级OpenClaw的国产多模态大模型开源发布，参数达万亿级别，预训练算力效率提升49%。",
-          "link": "https://www.qbitai.com/2026/03/384330.html",
-          "source": "量子位"
-        },
-        {
-          "title": "PPClaw重新定义Agent云端托管",
-          "summary": "PPClaw工具发布，通过一条命令即可搞定OpenClaw，简化了Agent的云端托管流程。",
-          "link": "https://www.qbitai.com/2026/03/384307.html",
-          "source": "量子位"
-        },
-        {
-          "title": "Bringing Robotics AI to Embedded Platforms",
-          "summary": "Hugging Face发布博客，介绍将机器人AI集成到嵌入式平台的方法，包括数据集记录、VLA微调和设备端优化。",
-          "link": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -46,15 +17,21 @@
       "name": "AI应用",
       "items": [
         {
-          "title": "360纳米漫剧流水线推动AI影视工业化",
-          "summary": "360发布纳米漫剧流水线，实现无需排队的工业级漫剧制作，加速AI在影视领域的工业化应用。",
-          "link": "https://www.qbitai.com/2026/03/384435.html",
+          "title": "高德发布大模型驱动的视觉认知步行导引系统",
+          "summary": "这是全球首个由大模型驱动的视觉认知步行导引系统，实现了可视、可感、可用的空间智能应用。该系统将大模型技术应用于实际导航场景。",
+          "link": "https://www.qbitai.com/2026/03/384557.html",
           "source": "量子位"
         },
         {
-          "title": "AI斗蛐蛐世界杯战报出炉",
-          "summary": "AI斗蛐蛐世界杯官方战报发布，悬赏5000美元邀请全球参与者，推动Agent调教技术的发展。",
-          "link": "https://www.qbitai.com/2026/03/383947.html",
+          "title": "原力灵机DM0模型重塑具身智能新范式",
+          "summary": "原力灵机DM0模型获得NVIDIA和Pi双重认可，正让机器人“又聪明又敏捷”的理想照进现实。该技术为具身智能领域带来重要突破。",
+          "link": "https://www.qbitai.com/2026/03/384573.html",
+          "source": "量子位"
+        },
+        {
+          "title": "无问智科发布业界首个物理AI数据基座平台",
+          "summary": "无问智科重磅发布业界首个物理AI数据基座平台，填补了行业物理AI数据基座的空白。该平台为物理AI应用提供关键数据基础设施。",
+          "link": "https://www.qbitai.com/2026/03/384449.html",
           "source": "量子位"
         }
       ]
@@ -63,34 +40,34 @@
       "name": "学术论文",
       "items": [
         {
-          "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
-          "summary": "论文研究编码Agent在价值冲突下的非对称目标漂移问题，分析了在长期上下文和未见训练环境中Agent的行为变化。",
-          "link": "https://arxiv.org/abs/2603.03456",
+          "title": "SkillNet：创建、评估和连接AI技能的基础设施",
+          "summary": "论文提出SkillNet，一个用于创建、评估和连接AI技能的开放基础设施，旨在解决AI智能体缺乏系统化技能积累和转移的问题。该研究为AI智能体的长期发展提供了新思路。",
+          "link": "https://arxiv.org/abs/2603.04448",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "Build, Judge, Optimize: A Blueprint for Continuous Improvement of Multi-Agent Consumer Assistants",
-          "summary": "论文提出一个蓝图，用于持续改进多Agent消费者助手，重点解决多轮交互评估和紧密耦合多Agent系统优化的挑战。",
-          "link": "https://arxiv.org/abs/2603.03565",
+          "title": "渐进细化调控加速扩散语言模型解码",
+          "summary": "论文提出渐进细化调控方法，通过控制不同token的细化过程来加速扩散语言模型的解码。该方法解决了传统均匀细化规则导致的冗余计算问题。",
+          "link": "https://arxiv.org/abs/2603.04514",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
-          "summary": "论文介绍Mozi框架，为药物发现LLM Agent提供受治理的自主性，解决工具使用治理和长期可靠性问题。",
-          "link": "https://arxiv.org/abs/2603.03655",
+          "title": "自适应记忆准入控制用于LLM智能体",
+          "summary": "论文研究LLM智能体的长期记忆管理问题，提出自适应记忆准入控制方法。该方法解决了当前系统对保留信息缺乏控制的问题，提高了记忆管理的效率和可靠性。",
+          "link": "https://arxiv.org/abs/2603.04549",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "MAGE: Meta-Reinforcement Learning for Language Agents toward Strategic Exploration and Exploitation",
-          "summary": "论文提出MAGE方法，使用元强化学习提升语言Agent在非平稳环境中的战略探索和利用能力。",
-          "link": "https://arxiv.org/abs/2603.03680",
+          "title": "自归因偏见：当AI监控对自己过于宽容",
+          "summary": "论文研究发现，当语言模型监控自身行为时，如果行为由模型自身而非用户提出，模型会表现出自归因偏见，即对自己行为的评价过于宽容。这一发现对AI安全监控设计有重要启示。",
+          "link": "https://arxiv.org/abs/2603.04582",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment",
-          "summary": "论文介绍AI4S-SDS系统，结合神经符号方法和稀疏MCTS，用于自动化化学配方的设计，解决高维组合空间导航问题。",
-          "link": "https://arxiv.org/abs/2603.03686",
-          "source": "ArXiv CS.AI"
+          "title": "CTRL-RAG：基于对比似然奖励的强化学习用于上下文忠实RAG模型",
+          "summary": "论文提出CTRL-RAG方法，使用基于对比似然奖励的强化学习来训练上下文忠实的RAG模型。该方法解决了现有RAG强化学习方法在评估文档忠实性方面的不足。",
+          "link": "https://arxiv.org/abs/2603.04406",
+          "source": "ArXiv CS.CL"
         }
       ]
     },
@@ -98,15 +75,9 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "华为重金押注的世界模型公司融资10亿元",
-          "summary": "华为投资的世界模型公司新融资10亿元，计划年内交付千台机器人，加速AI在机器人领域的应用。",
-          "link": "https://www.qbitai.com/2026/03/384312.html",
-          "source": "量子位"
-        },
-        {
-          "title": "捏Ta完成超千万美金Pre A+轮融资",
-          "summary": "捏Ta公司完成超千万美金Pre A+轮融资，由九坤领投，源码奇绩等超额跟进，旨在定义AI时代世界创作的基础设施。",
-          "link": "https://www.qbitai.com/2026/03/383998.html",
+          "title": "超智算智能算力中心在北京揭牌",
+          "summary": "超智算智能算力中心揭牌暨AI算力设备点亮仪式成功举行，标志着北京在算力基础设施建设上迈出关键一步。该中心将支持AI产业发展。",
+          "link": "https://www.qbitai.com/2026/03/384561.html",
           "source": "量子位"
         }
       ]
