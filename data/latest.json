@@ -1,31 +1,72 @@
 {
-  "date": "2026-03-09",
-  "overview": "今日AI领域最值得关注的是AI在创意和自动化应用方面的突破，包括高中生用AI创业管理龙虾员工、视频博主利用AI实现7×24小时全自动内容创作。此外，开源项目领域也有亮点，一名大学生开发的VibeCoding项目获得盛大3000万投资，显示出市场对创新AI工具的认可。",
+  "date": "2026-03-10",
+  "overview": "今日AI领域关注焦点集中在开源工具与学术研究突破。卡帕西开源了Agent自进化训练框架，显著降低实验门槛；IBM发布了紧凑型多语言语音模型Granite 4.0 1B Speech，专为边缘计算设计。学术方面，多篇论文探讨了Agent环境演化、思维链可控性及检索增强生成等前沿问题，推动AI系统向更稳健、可解释方向发展。",
   "categories": [
-    {
-      "name": "AI应用",
-      "items": [
-        {
-          "title": "高中生AI创业管理龙虾员工",
-          "summary": "一名高中生利用AI技术创业，公司全部雇佣龙虾作为员工，每月成本仅2800元，并设立了多个部门。这展示了AI在非传统劳动力管理中的创新应用，引发对AI自动化边界的讨论。",
-          "link": "https://www.qbitai.com/2026/03/384797.html",
-          "source": "量子位"
-        },
-        {
-          "title": "AI助力视频博主全自动创作",
-          "summary": "AI技术使视频博主能够实现7×24小时全自动内容创作，以龙虾为主题起号，碳基生物难以竞争。这突显了AI在内容生成领域的自动化潜力，可能改变行业生态。",
-          "link": "https://www.qbitai.com/2026/03/384646.html",
-          "source": "量子位"
-        }
-      ]
-    },
     {
       "name": "开源项目",
       "items": [
         {
-          "title": "大学生VibeCoding项目获3000万投资",
-          "summary": "一名20岁大学生仅用10天开发了VibeCoding开源项目，获得盛大3000万元投资。该项目展示了快速原型开发和市场对创新AI工具的高度兴趣，可能推动更多年轻开发者参与开源生态。",
-          "link": "https://www.qbitai.com/2026/03/384728.html",
+          "title": "卡帕西开源Agent自进化训练框架",
+          "summary": "该框架支持5分钟一轮实验，开源48小时内获得9.5k星标。下一步计划模拟整个博士社群，推动Agent自主进化研究。",
+          "link": "https://www.qbitai.com/2026/03/384953.html",
+          "source": "量子位"
+        },
+        {
+          "title": "IBM发布Granite 4.0 1B Speech语音模型",
+          "summary": "这是一个紧凑、多语言的语音模型，专为边缘计算场景设计。模型参数量为10亿，支持多种语言语音处理任务。",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
+          "source": "Hugging Face Blog"
+        }
+      ]
+    },
+    {
+      "name": "学术论文",
+      "items": [
+        {
+          "title": "The World Won't Stay Still: Programmable Evolution for Agent Benchmarks",
+          "summary": "该论文研究如何以可扩展、可控的方式演化Agent环境，以创建更稳健的基准测试。大多数现有基准假设静态环境，忽略了真实世界的演化特性。",
+          "link": "https://arxiv.org/abs/2603.05910",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "Reasoning Models Struggle to Control their Chains of Thought",
+          "summary": "论文引入CoT-Control评估套件，测量模型控制思维链内容的能力。如果模型能控制思维链内容，可能削弱思维链的可监控性。",
+          "link": "https://arxiv.org/abs/2603.05706",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis",
+          "summary": "论文比较基于知识图谱的检索增强生成方法，以提高RAG的鲁棒性。不一致的检索信息可能对LLM响应产生负面影响，需要更可靠的检索机制。",
+          "link": "https://arxiv.org/abs/2603.05698",
+          "source": "ArXiv CS.CL"
+        },
+        {
+          "title": "Safer Reasoning Traces: Measuring and Mitigating Chain-of-Thought Leakage in LLMs",
+          "summary": "研究思维链提示可能增加隐私风险，导致个人身份信息从提示泄露到推理轨迹和输出中。论文提出模型无关框架来定义和测量这种泄漏。",
+          "link": "https://arxiv.org/abs/2603.05618",
+          "source": "ArXiv CS.CL"
+        },
+        {
+          "title": "RoboLayout: Differentiable 3D Scene Generation for Embodied Agents",
+          "summary": "RoboLayout作为LayoutVLM的扩展，增强3D场景布局生成，使其不仅语义连贯，而且可供具身智能体交互。特别关注物理受限的室内环境。",
+          "link": "https://arxiv.org/abs/2603.05522",
+          "source": "ArXiv CS.AI"
+        }
+      ]
+    },
+    {
+      "name": "AI应用",
+      "items": [
+        {
+          "title": "企业微信支持接入OpenClaw",
+          "summary": "企业微信现在支持接入OpenClaw，仅需3步即可快速上手。这为企业用户提供了更便捷的AI工具集成方式。",
+          "link": "https://www.qbitai.com/2026/03/384944.html",
+          "source": "量子位"
+        },
+        {
+          "title": "文远知行与吉利远程深化战略合作",
+          "summary": "双方深化合作，计划在2026年交付2000台前装量产Robotaxi GXR。这标志着自动驾驶出租车商业化落地的重要进展。",
+          "link": "https://www.qbitai.com/2026/03/384835.html",
           "source": "量子位"
         }
       ]
@@ -34,9 +75,15 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "清华毕业生出国比例降至8.5%",
-          "summary": "清华大学公布毕业生去向，出国比例仅为8.5%，华为和字节跳动成为最大雇主。这反映了国内科技公司对AI人才的强劲需求，以及人才流动趋势的变化。",
-          "link": "https://www.qbitai.com/2026/03/384705.html",
+          "title": "“最美PM”宋紫薇获红杉蚂蚁投资转向AI护肤",
+          "summary": "宋紫薇获得红杉资本和蚂蚁集团投资，创业方向从原领域转向AI护肤。这一调整旨在暂避大厂锋芒，寻找差异化市场机会。",
+          "link": "https://www.qbitai.com/2026/03/384926.html",
+          "source": "量子位"
+        },
+        {
+          "title": "首个物理AI数据基座平台“无垠”落户浙江",
+          "summary": "该平台专治机器人数据荒，覆盖家庭、工业和商业场景。旨在打通从训练到商业化落地的全流程，解决机器人领域数据不足问题。",
+          "link": "https://www.qbitai.com/2026/03/385066.html",
           "source": "量子位"
         }
       ]
