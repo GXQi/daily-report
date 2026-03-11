@@ -1,56 +1,50 @@
 {
-  "date": "2026-03-10",
-  "overview": "今日AI领域关注焦点集中在开源工具与学术研究突破。卡帕西开源了Agent自进化训练框架，显著降低实验门槛；IBM发布了紧凑型多语言语音模型Granite 4.0 1B Speech，专为边缘计算设计。学术方面，多篇论文探讨了Agent环境演化、思维链可控性及检索增强生成等前沿问题，推动AI系统向更稳健、可解释方向发展。",
+  "date": "2026-03-11",
+  "overview": "今日AI领域重点关注Jeff Dean对未来开发者与智能体协作的展望，以及机器人自主技能的新突破。同时，多篇学术论文在推理对齐、多智能体辩论和代码生成优化等方面取得进展，为AI技术发展提供新思路。",
   "categories": [
     {
-      "name": "开源项目",
+      "name": "大模型动态",
       "items": [
         {
-          "title": "卡帕西开源Agent自进化训练框架",
-          "summary": "该框架支持5分钟一轮实验，开源48小时内获得9.5k星标。下一步计划模拟整个博士社群，推动Agent自主进化研究。",
-          "link": "https://www.qbitai.com/2026/03/384953.html",
+          "title": "Jeff Dean最新访谈：未来开发者人均50个智能体",
+          "summary": "Jeff Dean在访谈中预测未来开发者将平均管理50个智能体，编写需求将成为核心技能。他还透露蒸馏技术是谷歌Flash模型取得突破的关键因素。",
+          "link": "https://www.qbitai.com/2026/03/385569.html",
           "source": "量子位"
         },
         {
-          "title": "IBM发布Granite 4.0 1B Speech语音模型",
-          "summary": "这是一个紧凑、多语言的语音模型，专为边缘计算场景设计。模型参数量为10亿，支持多种语言语音处理任务。",
-          "link": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
-          "source": "Hugging Face Blog"
+          "title": "Best-of-Tails：桥接推理时对齐的乐观与悲观方法",
+          "summary": "该论文提出Best-of-Tails方法，旨在解决大语言模型推理时对齐中的根本困境。它通过平衡乐观与悲观策略，避免奖励黑客问题同时促进高质量响应的探索。",
+          "link": "https://arxiv.org/abs/2603.06797",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "LEAD：打破长程推理中的无恢复瓶颈",
+          "summary": "研究揭示大语言模型在长程执行中即使有高层策略仍不稳定，极端分解会导致“无恢复瓶颈”。LEAD方法通过识别和缓解关键步骤的错误分布，提升推理稳定性。",
+          "link": "https://arxiv.org/abs/2603.06870",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "LieCraft：评估语言模型欺骗能力的多智能体框架",
+          "summary": "LieCraft是一个新颖的评估框架和沙盒，用于测量大语言模型的欺骗能力。它通过多玩家隐藏角色游戏，解决了先前基于游戏评估的关键限制，更全面地测试模型安全性。",
+          "link": "https://arxiv.org/abs/2603.06874",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "打破鞅诅咒：通过非对称认知势能进行多智能体辩论",
+          "summary": "该论文揭示标准多智能体辩论存在“鞅诅咒”，即无法超越多数投票提高信念正确性。提出非对称认知势能方法，通过引入势能差异避免错误共识，提升辩论效果。",
+          "link": "https://arxiv.org/abs/2603.06801",
+          "source": "ArXiv CS.AI"
         }
       ]
     },
     {
-      "name": "学术论文",
+      "name": "开源项目",
       "items": [
         {
-          "title": "The World Won't Stay Still: Programmable Evolution for Agent Benchmarks",
-          "summary": "该论文研究如何以可扩展、可控的方式演化Agent环境，以创建更稳健的基准测试。大多数现有基准假设静态环境，忽略了真实世界的演化特性。",
-          "link": "https://arxiv.org/abs/2603.05910",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "Reasoning Models Struggle to Control their Chains of Thought",
-          "summary": "论文引入CoT-Control评估套件，测量模型控制思维链内容的能力。如果模型能控制思维链内容，可能削弱思维链的可监控性。",
-          "link": "https://arxiv.org/abs/2603.05706",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis",
-          "summary": "论文比较基于知识图谱的检索增强生成方法，以提高RAG的鲁棒性。不一致的检索信息可能对LLM响应产生负面影响，需要更可靠的检索机制。",
-          "link": "https://arxiv.org/abs/2603.05698",
-          "source": "ArXiv CS.CL"
-        },
-        {
-          "title": "Safer Reasoning Traces: Measuring and Mitigating Chain-of-Thought Leakage in LLMs",
-          "summary": "研究思维链提示可能增加隐私风险，导致个人身份信息从提示泄露到推理轨迹和输出中。论文提出模型无关框架来定义和测量这种泄漏。",
-          "link": "https://arxiv.org/abs/2603.05618",
-          "source": "ArXiv CS.CL"
-        },
-        {
-          "title": "RoboLayout: Differentiable 3D Scene Generation for Embodied Agents",
-          "summary": "RoboLayout作为LayoutVLM的扩展，增强3D场景布局生成，使其不仅语义连贯，而且可供具身智能体交互。特别关注物理受限的室内环境。",
-          "link": "https://arxiv.org/abs/2603.05522",
-          "source": "ArXiv CS.AI"
+          "title": "英伟达如何为AI构建开放数据",
+          "summary": "英伟达在Hugging Face博客上分享其构建AI开放数据的方法和策略。该文探讨了数据质量、可访问性和标准化在推动AI研究与应用中的重要性。",
+          "link": "https://huggingface.co/blog/nvidia/open-data-for-ai",
+          "source": "Hugging Face Blog"
         }
       ]
     },
@@ -58,16 +52,57 @@
       "name": "AI应用",
       "items": [
         {
-          "title": "企业微信支持接入OpenClaw",
-          "summary": "企业微信现在支持接入OpenClaw，仅需3步即可快速上手。这为企业用户提供了更便捷的AI工具集成方式。",
-          "link": "https://www.qbitai.com/2026/03/384944.html",
+          "title": "机器人全程自主收拾客厅",
+          "summary": "一款估值390亿美元的机器人展示了端到端新技能，能够全程自主收拾客厅。该技能由团队自研的具身大脑Helix 02提供支撑，英伟达持续加注投资。",
+          "link": "https://www.qbitai.com/2026/03/385126.html",
           "source": "量子位"
         },
         {
-          "title": "文远知行与吉利远程深化战略合作",
-          "summary": "双方深化合作，计划在2026年交付2000台前装量产Robotaxi GXR。这标志着自动驾驶出租车商业化落地的重要进展。",
-          "link": "https://www.qbitai.com/2026/03/384835.html",
-          "source": "量子位"
+          "title": "自主AI代理用于期权对冲",
+          "summary": "研究引入两种强化学习框架，用于部署自主AI代理在衍生品市场进行期权对冲。这些框架优先考虑短缺概率，并将学习目标与下行敏感对冲对齐，增强金融稳定性。",
+          "link": "https://arxiv.org/abs/2603.06587",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "验证小语言模型用于儿童福利记录中的物质分类",
+          "summary": "研究验证了一个小语言模型在儿童福利记录中对DSM-5物质类别进行分类的能力。结果表明，小模型可以超越二元检测，准确分类特定物质类型，适用于本地部署场景。",
+          "link": "https://arxiv.org/abs/2603.06836",
+          "source": "ArXiv CS.CL"
+        }
+      ]
+    },
+    {
+      "name": "学术论文",
+      "items": [
+        {
+          "title": "扩展策略而非计算：独立的开源星际争霸II基准",
+          "summary": "该论文提出一个独立的开源星际争霸II基准，旨在为强化学习研究提供可访问的中等复杂度环境。它填补了完整游戏与迷你游戏之间的复杂性差距，支持在现实计算预算下进行实验。",
+          "link": "https://arxiv.org/abs/2603.06608",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "MultiGen：扩散游戏引擎中可编辑多人世界的关卡设计",
+          "summary": "MultiGen引入显式外部内存到视频世界模型中，以解决用户控制环境和共享推理的局限性。它支持可重现、可编辑的体验，并允许玩家对共同世界施加影响。",
+          "link": "https://arxiv.org/abs/2603.06679",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "通过上下文规范使AI评估与部署相关",
+          "summary": "论文引入上下文规范作为过程，以支持和告知AI评估，使其更贴近部署现实。它帮助决策者理解AI工具是否以及如何提供持久价值，缓解当前评估方法掩盖操作现实的问题。",
+          "link": "https://arxiv.org/abs/2603.06811",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "强化世界边缘：多智能体-世界边界中的持续学习问题",
+          "summary": "研究探讨强化学习中可重用决策结构在跨情节中的生存问题，依赖于智能体-世界边界的绘制。在平稳有限视界MDP中，可以构建一个不变核心，并证明其存在性。",
+          "link": "https://arxiv.org/abs/2603.06813",
+          "source": "ArXiv CS.AI"
+        },
+        {
+          "title": "对称约束语言引导的程序合成用于从噪声和部分观察中发现控制方程",
+          "summary": "SymLang是一个统一框架，用于从实验观察中发现紧凑的控制方程。它结合对称约束和语言引导，处理噪声测量、未观察状态变量和多符号结构等挑战，提升方程发现的鲁棒性。",
+          "link": "https://arxiv.org/abs/2603.06869",
+          "source": "ArXiv CS.AI"
         }
       ]
     },
@@ -75,15 +110,15 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "“最美PM”宋紫薇获红杉蚂蚁投资转向AI护肤",
-          "summary": "宋紫薇获得红杉资本和蚂蚁集团投资，创业方向从原领域转向AI护肤。这一调整旨在暂避大厂锋芒，寻找差异化市场机会。",
-          "link": "https://www.qbitai.com/2026/03/384926.html",
+          "title": "OpenAI为龙虾紧急收购23人公司",
+          "summary": "OpenAI紧急收购了一家仅有23人的公司，该团队在两年内干出8600万美元估值。此次收购旨在加强其在相关领域的技术布局和创新能力。",
+          "link": "https://www.qbitai.com/2026/03/385637.html",
           "source": "量子位"
         },
         {
-          "title": "首个物理AI数据基座平台“无垠”落户浙江",
-          "summary": "该平台专治机器人数据荒，覆盖家庭、工业和商业场景。旨在打通从训练到商业化落地的全流程，解决机器人领域数据不足问题。",
-          "link": "https://www.qbitai.com/2026/03/385066.html",
+          "title": "Meta亚历山大王走人？小扎回应",
+          "summary": "关于Meta AI一号位、刚满29岁的亚历山大王可能离职的传闻，扎克伯格做出了回应。这一人事变动传闻引发业界对Meta AI战略稳定性的关注。",
+          "link": "https://www.qbitai.com/2026/03/385127.html",
           "source": "量子位"
         }
       ]
