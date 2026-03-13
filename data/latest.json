@@ -1,26 +1,20 @@
 {
-  "date": "2026-03-12",
-  "overview": "今日AI领域关注焦点集中在多模态模型突破与学术研究进展。谷歌发布了首个原生多模态嵌入模型，将文本、图像、视频和音频统一到同一表示空间，标志着多模态技术的重要进步。同时，学术论文领域涌现出多项重要研究，包括多智能体系统评估框架MASEval、医疗多模态智能体Meissa以及针对推理效率优化的ConFu方法，这些研究为AI系统的实际应用提供了新的理论基础和技术方案。",
+  "date": "2026-03-13",
+  "overview": "今日AI领域呈现多元化发展态势，其中“龙虾”智能体生态成为焦点，多家公司推出相关产品并探讨其应用前景。同时，学术研究持续深入，多篇论文关注大模型评估、幻觉检测和推理能力提升等核心问题。此外，爱诗科技完成3亿美元融资，标志着AI视频生成领域获得资本青睐。",
   "categories": [
     {
       "name": "大模型动态",
       "items": [
         {
-          "title": "谷歌发布首个原生多模态嵌入模型",
-          "summary": "谷歌推出首个原生多模态嵌入模型，能够将文本、图像、视频和音频统一映射到同一表示空间。该技术突破为跨模态理解和检索任务提供了新的解决方案。",
-          "link": "https://www.qbitai.com/2026/03/386485.html",
+          "title": "QQ浏览器登上a16z全球AI应用榜单",
+          "summary": "QQ浏览器作为国内唯一入选的AI浏览器，登上知名风投机构a16z发布的全球AI应用榜单。这反映了其在AI集成和应用创新方面的国际认可。",
+          "link": "https://www.qbitai.com/2026/03/387068.html",
           "source": "量子位"
         },
         {
-          "title": "国产模型在龙虾应用领域调用量激增34.9%",
-          "summary": "国产大模型在龙虾应用领域的调用量达到4.19万亿Token，同比增长34.9%，超越美国成为全球最大市场。国产模型包揽了该应用场景的前三名。",
-          "link": "https://www.qbitai.com/2026/03/386183.html",
-          "source": "量子位"
-        },
-        {
-          "title": "ChatGPT和Claude用户重叠率仅11%",
-          "summary": "a16z发布的Top100生成式AI应用榜单显示，ChatGPT和Claude的用户重叠率仅为11%，表明两者用户群体差异显著。中国应用在移动端表现突出，多个应用进入榜单前列。",
-          "link": "https://www.qbitai.com/2026/03/386114.html",
+          "title": "卡帕西：编程从写文件变成管龙虾！IDE不会凉但得换个用法",
+          "summary": "AI专家卡帕西提出，未来编程将转向管理“龙虾”智能体，而非直接编写代码。新一代IDE将演变为Agent管理中心，以适应AI驱动的开发范式转变。",
+          "link": "https://www.qbitai.com/2026/03/386668.html",
           "source": "量子位"
         }
       ]
@@ -29,9 +23,9 @@
       "name": "开源项目",
       "items": [
         {
-          "title": "NVIDIA AI-Q在DeepResearch Bench评测中夺冠",
-          "summary": "NVIDIA AI-Q模型在DeepResearch Bench I和II评测中均获得第一名，展示了其在研究任务上的卓越性能。Hugging Face博客详细介绍了该模型的技术实现和优化策略。",
-          "link": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
+          "title": "Build an Agent That Thinks Like a Data Scientist",
+          "summary": "英伟达在Hugging Face博客分享其NeMo Agent Toolkit如何通过可重用工具生成，在DABStep基准测试中获得第一名。该方法旨在构建能像数据科学家一样思考的智能体，提升数据分析自动化水平。",
+          "link": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
           "source": "Hugging Face Blog"
         }
       ]
@@ -40,15 +34,33 @@
       "name": "AI应用",
       "items": [
         {
-          "title": "龙虾应用安装与卸载服务市场火爆",
-          "summary": "随着龙虾应用的普及，相关安装服务收费499元，而卸载服务收费299元，形成了新的市场需求。\"卸虾\"业务因用户需求增长而变得异常火爆。",
-          "link": "https://www.qbitai.com/2026/03/386235.html",
+          "title": "马斯克官宣数字AI员工！世界首富也来养龙虾",
+          "summary": "马斯克宣布推出数字AI员工“数字擎天柱”，并涉足“龙虾”智能体领域。测试阶段员工将其误认为真人，显示其高度拟人化能力，但微软类似项目据称已停摆。",
+          "link": "https://www.qbitai.com/2026/03/386615.html",
           "source": "量子位"
         },
         {
-          "title": "00后机器人公司获20亿融资",
-          "summary": "一家由00后创立的机器人公司获得20亿元融资，估值在一年内暴涨7倍。该公司采用创新数据采集方案，成本仅为传统方案的10%，吸引了国家级资本的重仓投资。",
-          "link": "https://www.qbitai.com/2026/03/385824.html",
+          "title": "全球首款手机龙虾秒光，OpenClaw创始人称愿与百度合作",
+          "summary": "全球首款手机“龙虾”智能体产品迅速售罄，显示市场对移动端AI代理的高需求。OpenClaw创始人表示愿意与百度共同开发龙虾生态，推动技术落地。",
+          "link": "https://www.qbitai.com/2026/03/386660.html",
+          "source": "量子位"
+        },
+        {
+          "title": "真·养虾！3步让龙虾边聊边进化，不用GPU不用数据集就能强化学习",
+          "summary": "介绍一种无需GPU或数据集的“龙虾”智能体强化学习方法，仅需三步即可实现边对话边进化。该方法还能自动生成技能，降低AI代理开发门槛。",
+          "link": "https://www.qbitai.com/2026/03/386601.html",
+          "source": "量子位"
+        },
+        {
+          "title": "对话VAST曹炎培：2秒才是3D生成本该有的速度",
+          "summary": "VAST创始人曹炎培提出，AI 3D生成应追求2秒内的速度，标志着3D生成进入2.0范式。这旨在提升实时性和用户体验，推动3D内容创作普及。",
+          "link": "https://www.qbitai.com/2026/03/386717.html",
+          "source": "量子位"
+        },
+        {
+          "title": "荣耀机器人亮相MWC，瑞声科技提供关键结构件支持",
+          "summary": "荣耀在MWC展会上推出机器人产品，瑞声科技深度参与并提供关键结构件支持。这显示AI与硬件结合在消费电子领域的应用拓展。",
+          "link": "https://www.qbitai.com/2026/03/386713.html",
           "source": "量子位"
         }
       ]
@@ -57,34 +69,34 @@
       "name": "学术论文",
       "items": [
         {
-          "title": "MASEval：扩展多智能体评估从模型到系统",
-          "summary": "MASEval提出了一个多智能体系统评估框架，强调系统组件（如拓扑结构、协调逻辑）对性能的影响，而不仅仅是模型本身。该研究填补了现有模型中心化评估的不足，为智能体系统设计提供了更全面的评测标准。",
-          "link": "https://arxiv.org/abs/2603.08835",
+          "title": "Beyond Scalars: Evaluating LLM Reasoning via Geometric Progress and Stability",
+          "summary": "论文提出TRACED框架，通过几何运动学评估大语言模型的推理质量，分解为进展和稳定性两个维度。研究发现正确推理表现为高进展、稳定轨迹，而幻觉则呈现低进展、高曲率模式。",
+          "link": "https://arxiv.org/abs/2603.10384",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "Meissa：多模态医疗智能体系统",
-          "summary": "Meissa是一个多模态医疗智能体系统，支持工具使用和多智能体协作，专为临床环境设计。该系统减少了对GPT等前沿模型的依赖，通过本地部署降低了成本、延迟和隐私风险，适用于实际的医疗决策场景。",
-          "link": "https://arxiv.org/abs/2603.09018",
-          "source": "ArXiv CS.AI"
-        },
-        {
-          "title": "ConFu：通过未来预测改进推测采样",
-          "summary": "ConFu提出了一种新的推测解码方法，通过让草稿模型\"思考未来\"来生成更准确的候选标记，从而减少错误累积。该方法在保持推理速度的同时，显著提升了大型语言模型输出的质量。",
-          "link": "https://arxiv.org/abs/2603.08899",
+          "title": "The System Hallucination Scale (SHS): A Human-Centered Instrument for Evaluating Hallucination",
+          "summary": "研究引入系统幻觉量表（SHS），一种轻量级、以人为中心的测量工具，用于评估大语言模型的幻觉相关行为。SHS支持快速、可解释和领域无关的评估，涵盖事实不可靠性、不连贯性等方面。",
+          "link": "https://arxiv.org/abs/2603.09989",
           "source": "ArXiv CS.CL"
         },
         {
-          "title": "LDP：多智能体LLM系统的身份感知协议",
-          "summary": "LDP是一个AI原生的通信协议，为多智能体系统引入了模型身份、推理配置文件等五个机制作为一等公民。该协议旨在解决当前协议（如A2A和MCP）在有效委托方面的局限性，提升智能体间的协作效率。",
-          "link": "https://arxiv.org/abs/2603.08852",
+          "title": "HEAL: Hindsight Entropy-Assisted Learning for Reasoning Distillation",
+          "summary": "论文提出HEAL方法，通过后见熵辅助学习，解决大推理模型向小模型蒸馏时的“教师天花板”问题。该方法动态调整教师模型，提升学生在复杂问题上的推理能力。",
+          "link": "https://arxiv.org/abs/2603.10359",
           "source": "ArXiv CS.AI"
         },
         {
-          "title": "预算约束下的智能体搜索设计决策量化研究",
-          "summary": "该研究通过BCAS评估框架，量化分析了搜索深度、检索策略等设计决策在固定预算下对智能体RAG系统准确性和成本的影响。研究结果为资源受限环境中的系统优化提供了实证依据。",
-          "link": "https://arxiv.org/abs/2603.08877",
-          "source": "ArXiv CS.AI"
+          "title": "Quantifying Hallucinations in Language Models on Medical Textbooks",
+          "summary": "研究量化大语言模型在医学教科书问答中的幻觉频率，基于固定证据源进行评估。旨在揭示医疗领域AI响应的可靠性问题，为缓解幻觉提供数据支持。",
+          "link": "https://arxiv.org/abs/2603.09986",
+          "source": "ArXiv CS.CL"
+        },
+        {
+          "title": "The Dunning-Kruger Effect in Large Language Models: Confidence Calibration Study",
+          "summary": "实证研究探讨大语言模型是否表现出邓宁-克鲁格效应，即能力有限时高估自身性能。评估了多个先进模型，发现它们在置信度校准上存在类似人类认知偏差的模式。",
+          "link": "https://arxiv.org/abs/2603.09985",
+          "source": "ArXiv CS.CL"
         }
       ]
     },
@@ -92,15 +104,26 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "LeCun邀请谢赛宁加入新公司并获10亿美元投资",
-          "summary": "Yann LeCun多次邀请谢赛宁加入其新创公司，该公司成立仅两个半月即获得10亿美元投资，估值达到35亿美元。这一合作标志着AI领域顶尖人才的强强联合。",
-          "link": "https://www.qbitai.com/2026/03/386308.html",
+          "title": "爱诗科技完成3亿美元C轮融资，鼎晖领投",
+          "summary": "爱诗科技完成3亿美元C轮融资，由鼎晖领投，资金将用于开启“实时交互”视频生成新纪元。这显示AI视频生成领域获得资本高度关注，推动技术商业化进程。",
+          "link": "https://www.qbitai.com/2026/03/386664.html",
           "source": "量子位"
         },
         {
-          "title": "对话《哈萨比斯传》作者探讨AI领袖特质",
-          "summary": "通过对《哈萨比斯传》作者的访谈，探讨了DeepMind创始人Demis Hassabis的领导风格和成功要素。作者分享了哈萨比斯对Sam Altman的看法，以及成为像他那样的AI领袖所需的关键品质。",
-          "link": "https://www.qbitai.com/2026/03/386285.html",
+          "title": "养虾人Token自由！千亿Token+百万奖金等你来拿",
+          "summary": "推出“龙虾”智能体生态激励计划，提供千亿Token和百万奖金，鼓励开发者零门槛参与。旨在扩大“龙虾”社区，加速AI代理应用创新和落地。",
+          "link": "https://www.qbitai.com/2026/03/386669.html",
+          "source": "量子位"
+        }
+      ]
+    },
+    {
+      "name": "技术教程",
+      "items": [
+        {
+          "title": "全网首份「龙虾」安全部署指南来了！360出品",
+          "summary": "360发布全网首份“龙虾”智能体安全部署指南，强调“养龙虾，需谨慎”。指南提供安全最佳实践，帮助开发者和企业规避AI代理部署中的潜在风险。",
+          "link": "https://www.qbitai.com/2026/03/386707.html",
           "source": "量子位"
         }
       ]
